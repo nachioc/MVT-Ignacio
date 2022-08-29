@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi-MVT</title>
+</head>
+<body>
+
+    <h1>Familiares:</h1>
+    
+   
+    
+    <tr>
+        <th><b>Nombre</b></th>
+        <th><b>Apellido</b></th>
+        <th><b>Edad</b></th>
+        <th><b>Fecha de nacimiento</b></th>
+    </tr>
+
+        {% for familia in fmapp %}
+
+        <table class="">
+       
+
+
+
+        <tr>
+            <td>{{ familia.nombre}}</td>
+            <td>{{ familia.apellido}}</td>
+            <td>{{ familia.edad}}</td>
+            <td>{{ familia.fechadenacimiento}}</td>
+        </tr>
+        
+        {% endfor %}
+    
+    
+    
+    
+
+
+</body>
+</html>
