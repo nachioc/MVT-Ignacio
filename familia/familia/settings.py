@@ -56,7 +56,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            'C:/Users/gcc19/Desktop/primerMVT/familia/plantilla'
+            
         ],
         'APP_DIRS': True,
         'OPTIONS': {
